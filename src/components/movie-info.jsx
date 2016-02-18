@@ -36,7 +36,7 @@ module.exports = React.createClass({
     </div>
   },
   renderMovie: function(){
-    var videoUrl = "http://www.youtube.com/embed/" + this.state.movie.videos.results[0].key + "?autoplay=1";
+    var videoUrl = "https://www.youtube.com/embed/" + this.state.movie.videos.results[0].key + "?autoplay=1";
     return <div className="embed-responsive embed-responsive-16by9">
       <iframe id="ytplayer" clasName="embed-responsive-item" type="text/html" width="640" height="390"
         src={videoUrl}/>
