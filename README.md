@@ -7,7 +7,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 	> git clone https://github.com/nancruz/random-movies-react.git
-	> cd ReactStarter
+	> cd random-movies-react
 	> npm install
 	> gulp
 ```
