@@ -1,3 +1,95 @@
-.black {
-  color: black
+body{
+  padding-top: 70px;
+  background-color: white;
+}
+.header{
+  background-color: #b81d18;
+  .navbar-brand{
+    color:white;
+  }
+}
+.navbar-right{
+  margin-right: 0px;
+}
+.filters-container{
+  .form-inline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  label{
+    color: white;
+    margin-right: 5px;
+  }
+  input{
+    margin-right: 5px;
+  }
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-inner-spin-button{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  .year-form{
+    input{
+      width:100px;
+    }
+  }
+  .score-form{
+    margin-left: 20px;
+    input{
+      width: 80px;
+    }
+  }
+  .btn{
+    margin-bottom: 10px;
+  }
+  .invalid-input{
+    border-color: red;
+  }
+  .error-label{
+    margin-bottom: 10px;
+    color: white;
+  }
+}
+.movie-info-container{
+  color: #202020;
+  .movie-score{
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 55px;
+    text-align: center;
+  }
+  .movie-genres{
+    margin-top: 20px;
+  }
+  .movie-description{
+    margin-top: 20px;
+  }
+  .label{
+    margin-right: 5px;
+  }
+}
+.media-container{
+  position: relative;
+  .next-button-container{
+    left:100%;
+    margin-left: -50px;
+    width: 50px;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+    text-align: center;
+    span{
+      top: 50%;
+      margin-top: -20px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
 }
